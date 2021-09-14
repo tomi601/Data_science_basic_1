@@ -1,1 +1,52 @@
 Сюда вы загружаете то что делали в классе
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled2.ipynb",
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "-yigz27vsC_X",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "b5213af4-f63f-4d9a-95ea-1a91b06d13e1"
+      },
+      "source": [
+        "name = ['l', 'e', 's', 'y', 'a', 17] #1 задание\n",
+        "print(name[1:-1])\n",
+        "name.append(\"11П\")#2 задание\n",
+        "print(name)\n",
+        "surname = \"Selyanina\" #3 задание\n",
+        "surname = list(surname)\n",
+        "name = name + surname\n",
+        "print(name)"
+      ],
+      "execution_count": 21,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['e', 's', 'y', 'a']\n",
+            "['l', 'e', 's', 'y', 'a', 17, '11П']\n",
+            "['l', 'e', 's', 'y', 'a', 17, '11П', 'S', 'e', 'l', 'y', 'a', 'n', 'i', 'n', 'a']\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
