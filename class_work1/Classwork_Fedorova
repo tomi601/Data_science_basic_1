@@ -1,0 +1,8 @@
+name = ['s', 't', 'a', 's', 'y', 'a', 15]
+print(name[1:-1]) #первое задание
+name.append("10П")
+print(name) #второе задание
+surname = "Fedorova"
+surname = list(surname)
+name = name + surname
+print(name)
